@@ -77,12 +77,11 @@ button:hover {
     background-image: url("./images/background.jpg");
     background-size: cover;
     width: 110vw;
-    height: 600px;
+    height: 110vh;
     object-fit: cover;
   
     -webkit-filter: blur(6px) brightness(70%);
     filter: blur(6px) brightness(70%);
-    
 }
 
 .headerText {
@@ -106,6 +105,12 @@ button:hover {
 .secondary {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.gallery {
+    display: block;
+    height: 500px;
+    background: #415d46;
 }
 
 #officialWebsite {
