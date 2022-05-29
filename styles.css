@@ -113,6 +113,41 @@ button:hover {
     background: #415d46;
 }
 
+.title {
+    color: white;
+    font-size: 32px;
+    padding: 32px;
+    margin-bottom: 42px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.wildlifeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.info {
+    text-align: center;
+}
+
+.animal {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border: 6px solid #88b190;
+    border-radius: 4px;
+}
+
+.animalText {
+    color: white;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
 #officialWebsite {
     width: auto;
     height: 300px;
