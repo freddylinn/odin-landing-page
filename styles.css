@@ -124,11 +124,12 @@ button:hover {
 .title {
     color: white;
     font-size: 32px;
-    padding: 24px;
+    padding: 14px;
     width: 500px;
     max-width: 80vw;
     border-bottom: 2px solid white;
-    margin-bottom: 42px;
+    margin-top: 24px;
+    margin-bottom: 56px;
     font-weight: 800;
     text-align: center;
 }
@@ -139,7 +140,7 @@ button:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 32px;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 
 .info {
