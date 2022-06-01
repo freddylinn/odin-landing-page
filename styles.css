@@ -47,6 +47,7 @@ button:hover {
     border: 4px solid #88b190;
     color: black;
     background-color: white;
+    text-shadow: none;
 }
 
 
@@ -161,6 +162,23 @@ button:hover {
     text-shadow: 1px 1px 12px #444444;
 }
 
+.quoteContainer {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    gap: 24px;
+}
+
+.quoteText {
+    font-size: 32px;
+    font-weight: light;
+    font-style: italic;
+    color: #5e5e5e;
+    text-align: center;
+}
+
+
 #officialWebsite {
     width: auto;
     height: 300px;
@@ -171,4 +189,10 @@ button:hover {
 #boldCaption {
     font-size: 48px;
     font-weight: bolder;
+}
+
+#author {
+    font-size: 18px;
+    color: #5e5e5e;
+    align-self: flex-end;
 }
