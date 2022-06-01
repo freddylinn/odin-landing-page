@@ -172,10 +172,21 @@ button:hover {
 
 .quoteText {
     font-size: 32px;
-    font-weight: light;
+    font-weight: lighter;
     font-style: italic;
     color: #5e5e5e;
     text-align: center;
+}
+
+.footer {
+    display: flex;
+    background: #4e4d4d;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
 }
 
 
@@ -195,4 +206,5 @@ button:hover {
     font-size: 18px;
     color: #5e5e5e;
     align-self: flex-end;
+    font-weight: lighter;
 }
